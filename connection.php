@@ -3,8 +3,8 @@ function credentials()
 {
     return [
         'user' => 'root',
-        'password' => '123',
+        'password' => '1234',
         'server' => 'localhost',
-        'database' => 'NombreDeLaDB'
+        'database' => 'libreria'
     ];
 }

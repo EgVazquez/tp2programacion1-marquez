@@ -29,6 +29,6 @@ class UserRepository
     //En esta query hay que agregar los nombres de las columnas como Esteban los haya puesto en la BD
     public function login($user, $password)
     {
-        $q = "SELECT id, password, name, surname FROM user WHETE user = ?";
+        $q = "SELECT id, password, name, surname, email FROM user WHETE user = 'Admin'";
     }
 }
