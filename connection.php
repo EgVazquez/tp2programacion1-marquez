@@ -1,9 +1,10 @@
 <?php
-
-function credentials(){
-    $user="root";
-    $password="123";
-    $server="localhost";
-    $database="NombreDeLaDB";
-
+function credentials()
+{
+    return [
+        'user' => 'root',
+        'password' => '123',
+        'server' => 'localhost',
+        'database' => 'NombreDeLaDB'
+    ];
 }
