@@ -7,7 +7,6 @@ class User
     protected $password;
     protected $name;
     protected $surname;
-
     protected $email;
 
     public function __construct($user, $password, $name, $surname, $id, $email)
